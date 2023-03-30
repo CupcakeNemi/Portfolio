@@ -1,0 +1,15 @@
+.wrapper{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 4.5rem ;
+}
+
+.projectImgDiv{
+    margin: 0 100px 0 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    // justify-items: center;
+    // justify-content: center;
+    // align-items: center;
+}

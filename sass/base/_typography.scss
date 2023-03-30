@@ -1,0 +1,22 @@
+body{
+    color: $font-color;
+    font-family: $body-font-family;
+}
+
+h1{
+    font-family: $header-font-family;
+    font-size: $header-font-size;
+    color: $font-color;
+}
+
+nav a{
+    font-family: $base-font-size;
+    font-size: $nav-font-size;
+    text-decoration: none;
+    color: $font-color;
+}
+
+.projectTitle{
+    font-size: $nav-font-size;
+    
+}
