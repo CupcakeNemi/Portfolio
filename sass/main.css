@@ -26,6 +26,24 @@ nav a {
   font-size: 20px;
 }
 
+.imgTitle {
+  text-align: center;
+  text-decoration: underline;
+  padding: 0;
+  color: #080325;
+}
+
+.imgDiv {
+  margin-bottom: 20px;
+}
+
+.pro {
+  width: 130px;
+  height: 300px;
+  margin: 10px;
+  box-shadow: 3px 3px 10px rgba(185, 185, 205, 0.667);
+}
+
 header {
   /* width: 100%; */
   height: 136px;
@@ -73,4 +91,87 @@ a {
 
 img {
   margin-top: 10px;
+}
+
+.flexCont {
+  display: flex;
+  margin: 70px 130px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex: 1;
+}
+
+.numContainer,
+.atContainer,
+.adressContainer {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.numContainer .phone,
+.atContainer .at,
+.adressContainer .place {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.phone,
+.at,
+.place {
+  font-size: 33px;
+}
+
+.numContainer {
+  width: 250px;
+  height: 100px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.atContainer {
+  width: 250px;
+  height: 100px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.adressContainer {
+  width: 250px;
+  height: 100px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.infoColor {
+  background-color: #FFF2DF;
+}
+
+.tel,
+.mail {
+  padding: 0 0 0 10px;
+  margin-top: 30px;
+}
+
+address {
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+.selfie {
+  box-shadow: none;
+  width: 400px;
+  height: 600px;
+}
+
+.textCont {
+  background-color: #FFEACC;
+  width: 400px;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 15px;
 }/*# sourceMappingURL=main.css.map */

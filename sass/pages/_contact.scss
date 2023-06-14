@@ -1,0 +1,86 @@
+.flexCont {
+    display: flex;
+    margin: 70px 130px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.numContainer,
+.atContainer,
+.adressContainer {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+
+.numContainer .phone,
+.atContainer .at,
+.adressContainer .place {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.phone,
+.at,
+.place {
+    font-size: 33px;
+}
+
+.numContainer {
+    width: 250px;
+    height: 100px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.atContainer {
+    width: 250px;
+    height: 100px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.adressContainer {
+    width: 250px;
+    height: 100px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.infoColor {
+    background-color: $infoSquare-color;
+
+}
+
+.tel,
+.mail {
+    padding: 0 0 0 10px;
+    margin-top: 30px;
+}
+
+address {
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.selfie {
+    box-shadow: none;
+    width: 400px;
+    height: 600px;
+
+}
+
+.textCont {
+    background-color: $secondInfo-color;
+
+    width: 400px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 15px;
+}
