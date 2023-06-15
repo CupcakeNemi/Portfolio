@@ -1,6 +1,6 @@
 .flexCont {
     display: flex;
-    margin: 70px 130px;
+    margin: 70px 250px;
 }
 
 .infoContainer {
@@ -54,7 +54,7 @@
 }
 
 .infoColor {
-    background-color: $infoSquare-color;
+    background-color: $squareOne-color;
 
 }
 
@@ -77,10 +77,15 @@ address {
 }
 
 .textCont {
-    background-color: $secondInfo-color;
-
-    width: 400px;
+    background-color: $squareTwo-color;
+    width: 450px;
+    height: 300px;
     padding: 30px;
     margin: 30px;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-left: 200px;
 }
