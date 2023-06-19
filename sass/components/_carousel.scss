@@ -4,8 +4,14 @@
 
 
 .pro{
-    width: 130px;
-    height: 300px;
+    width: 200px;
+    // height: 300px;
+    margin: 10px;
+    box-shadow: 3px 3px 10px rgba(185, 185, 205, 0.667);
+}
+
+.proBig{
+    height: 330px;
     margin: 10px;
     box-shadow: 3px 3px 10px rgba(185, 185, 205, 0.667);
 }

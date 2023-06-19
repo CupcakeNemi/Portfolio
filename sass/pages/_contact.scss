@@ -65,15 +65,13 @@
 }
 
 address {
-    margin-top: 30px;
+    margin-top: 20px;
     padding-left: 20px;
 }
 
-.selfie {
+.contSelfie {
     box-shadow: none;
-    width: 400px;
-    height: 600px;
-
+    width: 500px;
 }
 
 .textCont {
@@ -88,4 +86,12 @@ address {
     align-items: center;
     flex: 1;
     margin-left: 200px;
+}
+
+.numContainer, .atContainer{
+    font-size: 18px
+}
+
+.adressContainer{
+    font-size: 20px;
 }
