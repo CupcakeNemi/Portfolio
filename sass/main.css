@@ -32,6 +32,10 @@ nav a {
 }
 
 .imgTitle {
+  margin: 5px;
+}
+
+.imgTitle {
   text-align: center;
   text-decoration: underline;
   padding: 0;
@@ -58,12 +62,15 @@ nav a {
   box-shadow: 3px 3px 10px rgba(185, 185, 205, 0.667);
 }
 
+body {
+  width: 100vw;
+}
+
 header {
-  /* width: 100%; */
-  height: 136px;
+  width: 100%;
+  height: 10vh;
   display: flex;
   background-color: #FBF6EF;
-  flex-direction: row;
 }
 
 h1 {
@@ -77,6 +84,25 @@ hr {
   border: none;
 }
 
+@media only screen and (max-width: 600px) {
+  /* Styles for small screens */
+  body {
+    width: 100vw;
+  }
+  header {
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  h1 {
+    padding: 20px;
+  }
+  nav {
+    padding: 10px;
+  }
+  /* Add more styles for small screens as needed */
+}
 nav {
   padding-top: 25px;
 }
