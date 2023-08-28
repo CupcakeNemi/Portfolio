@@ -62,6 +62,11 @@ nav a {
   box-shadow: 3px 3px 10px rgba(185, 185, 205, 0.667);
 }
 
+.diplom {
+  margin: auto;
+  width: 900px;
+}
+
 body {
   width: 100vw;
 }
